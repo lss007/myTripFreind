@@ -60,10 +60,8 @@ class Register extends Component
 
         // Send verificatioon Email
         dispatch(new VerificationEmail($user, $verify));
-
-        session()->flash('message', 'You have succussfully created your account.');
         $this->resetInputFields();
+        session()->flash('message', 'You have succussfully created your account.');
         return redirect()->to('/verify-email');
-
     }
 }

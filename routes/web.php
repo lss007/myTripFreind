@@ -21,12 +21,12 @@ Route::group(['middleware' => ['guest']], function () {
   Route::get('reset-password-sent', \App\Http\Livewire\Frontend\ResetPasswordSent::class);
   Route::get('password/reset/{token}', \App\Http\Livewire\Frontend\Resetpassword::class)->name('password.reset');
   Route::get('/verifyemail/{email}/{token}', [\App\Http\Livewire\Frontend\Resetpassword::class, 'verifiedEmail']);
-  Auth::routes([
-        'register' => false,
-        'login' => false,
-        'verify' => true,
-        'password.reset' =>false
-  ]);
+  // Auth::routes([
+  //       'register' => false,
+  //       'login' => false,
+  //       'verify' => true,
+  //       'password.reset' =>false
+  // ]);
 });
 Route::group(['middleware' => ['auth']], function () {
   Route::group(['middleware' => ['UserDashboard']], function () {
