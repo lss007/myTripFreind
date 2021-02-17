@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 :root{
-  --primary-color:#FFAA29;
-  --primary-hover-color: #e78e07;
+  --primary-color:#F26A1D;
+  --primary-hover-color: #F26A1D;
   --primary-dark: #e78b00;
   --bgTheme : #FDA458;
   --base-color: #110507;
@@ -51,7 +51,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--base-color);
   overflow-x: hidden;
   font-size: 15px;
@@ -90,39 +90,7 @@ img {
 	color: var(--primary-color);
 	background-color: var(--grayLight3);
 }
-.btn {
-	font-weight: 500;
-	font-size: 14px;
-	border-radius: 9px;
-	padding: 14px 30px;
-}
-.btn.btnSm {
-	padding: 10px 25px;
-	border-radius: 4px;
-}
-.btn-light {
-	border-color: var(--borderLightColor);
-	background-color: var(--bs-white);
-}
-.btn-primary {
-	background-color: var(--primary-color);
-	border-color: var(--primary-color);
-	color: var(--bs-white);
-}
-.btn-primary:hover, .btn-check:focus + .btn-primary, .btn-primary:focus {
-	background-color: var(--primary-hover-color);
-	border-color: var(--primary-hover-color);
-	color: var(--bs-white);
-}
-.btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.btn-dark {
-	color: var(--bs-white);
-	background-color: var(--borderDarkColor);
-	border-color: var(--borderDarkColor);
-}
+
 .form-check-input:checked {
 	background-color: var(--primary-color);
 	border-color: var(--primary-color);
@@ -803,21 +771,7 @@ textarea.form-control.countFld {
 	padding: 0;
 }
 
-.loginLeftCol {
-  /* background-image: url(../images/login-bg.jpg); */
-  background-color: var(--dark2);
-	height: 100%;
-  min-height: 100vh;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  position: relative;
-  -webkit-box-shadow: 20px 0 20px rgba(0,0,0,0.05);
-  box-shadow: 20px 0 20px rgba(0,0,0,0.05);
-  -webkit-transition: all 400ms ease-in-out 0s;
-  -o-transition: all 400ms ease-in-out 0s;
-  transition: all 400ms ease-in-out 0s;
-}
+
 .overlay {
   position: absolute;
   left: 0;
@@ -1000,9 +954,7 @@ textarea.form-control.countFld {
   opacity: 0;
   z-index: 2;
 }
-.loginLogoImg {
-  width: 300px;
-}
+
 .sendProjectContentCol .loginLogoImg {
 	width: 230px;
 }
@@ -3407,7 +3359,25 @@ b {
 	font-weight: 700;
 	padding-top: 5px;
 }
+
 /******** Lucky css Starts **********/
+.verificationCol {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.verifytopShape {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.verifyBottomShape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 span.error {
     color: #ef2121;
     font-size: 13px;
@@ -3416,8 +3386,83 @@ span.error {
     max-width: 450px;
     text-align: center;
     margin: 0 auto;
+    position: relative;
 }
+.loginLeftCol {
+	height: 100%;
+  min-height: 100vh;
+  background: #E8F4FD;
+  background-size: cover;
+  position: relative;
+  -webkit-transition: all 400ms ease-in-out 0s;
+  -o-transition: all 400ms ease-in-out 0s;
+  transition: all 400ms ease-in-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginLogoImg {
+  width: 200px;
+}
+.btn {
+	font-weight: 500;
+	font-size: 14px;
+	border-radius: 30px;
+  padding: 12px 25px;
+}
+.btn.btnSm {
+	padding: 10px 25px;
+	border-radius: 30px;
+}
+.btn-light {
+	border-color: var(--borderLightColor);
 
+	background-color: var(--bs-white);
+}
+.btn-primary {
+	background-color: var(--primary-color);
+	border-color: var(--primary-color);
+	color: var(--bs-white);
+}
+.btn-primary:hover, .btn-check:focus + .btn-primary, .btn-primary:focus {
+	background-color: var(--primary-hover-color);
+	border-color: var(--primary-hover-color);
+	color: var(--bs-white);
+}
+.btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-dark {
+	color: var(--bs-white);
+	background-color: var(--borderDarkColor);
+	border-color: var(--borderDarkColor);
+}
+.verificationCol h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.mb-35 {
+  margin-bottom: 35px;
+}
+.verificationCol p {
+  color:#A9A9A9;
+  font-size: 16px;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+.minWid150 {
+  min-width: 150px;
+}
+.iconBtn span , .iconBtn img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.iconBtn img {
+  margin-left: 5px;
+}
 /******** Lucky css Ends **********/
 @media (min-width:992px) {
   .lgTabAccordion .collapse:not(.show) {

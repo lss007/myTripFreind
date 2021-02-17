@@ -88,12 +88,7 @@
   </div>
   <div class="col-lg-6">
     <div class="loginLeftCol">
-      <div class="overlay"></div>
-      <div class="loginLeftContent">
-        <div class="llcContent">
-          <h4 class="lgTitle lineTitle">Φερνουμε κοντα τους <br> φοιτητεσ στους καθηγητεσ</h4>
-        </div>
-      </div>
+      <img src="{{ asset('assets/images/resetpasswordvector.svg') }}" alt=""/>
     </div>
   </div>
 </div>

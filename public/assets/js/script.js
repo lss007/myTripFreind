@@ -95,13 +95,13 @@ $(function () {
 
 
 // change bg image
-function pic() {
-  var bgm = ['assets/images/login-bg.jpg','assets/images/login-bg-2.jpg','assets/images/register-bg.jpg'];
-  $('.loginLeftCol').css({
-    'background-image' : 'url('+ bgm[Math.floor(Math.random() * bgm.length)] + ')',
-  });
-}
-pic();
+// function pic() {
+//   var bgm = ['assets/images/login-bg.jpg','assets/images/login-bg-2.jpg','assets/images/register-bg.jpg'];
+//   $('.loginLeftCol').css({
+//     'background-image' : 'url('+ bgm[Math.floor(Math.random() * bgm.length)] + ')',
+//   });
+// }
+// pic();
 
 
 

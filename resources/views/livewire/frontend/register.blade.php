@@ -96,13 +96,8 @@
     </div>
   </div>
   <div class="col-lg-6">
-    <div class="loginLeftCol regBg">
-      <div class="overlay"></div>
-      <div class="loginLeftContent">
-        <div class="llcContent">
-          <h4 class="lgTitle lineTitle">Φερνουμε κοντα τους <br> φοιτητεσ στους καθηγητεσ</h4>
-        </div>
-      </div>
+    <div class="loginLeftCol">
+      <img src="{{ asset('assets/images/registervector.svg') }}" alt=""/>
     </div>
   </div>
 </div>
