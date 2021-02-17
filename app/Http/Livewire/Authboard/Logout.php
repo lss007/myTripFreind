@@ -17,7 +17,7 @@ class Logout extends Component
     {
         return <<<'blade'
             <div>
-                <a class="logoutBtn cursor-pointer" wire:click="logout">Logout</a>
+                <a wire:click="logout"> <span class="ddIcon"><img src="{{ asset('assets/images/logout-icon.svg') }}" alt="..."></span> <span class="ddLinkText">Logout</span></a>
             </div>
         blade;
     }

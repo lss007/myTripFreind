@@ -1,0 +1,22 @@
+<svg width="297" height="297" viewBox="0 0 297 297" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="297" height="297">
+<circle opacity="0.15" cx="148.5" cy="148.5" r="148.5" fill="#FFAA29"/>
+</mask>
+<g mask="url(#mask0)">
+<rect x="-76.5195" y="-41.5022" width="387.786" height="385.192" rx="20" fill="#FFAA29"/>
+</g>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="42" y="42" width="213" height="213">
+<circle opacity="0.2" cx="148.5" cy="148.5" r="105.732" fill="#FFAA29"/>
+</mask>
+<g mask="url(#mask1)">
+<rect x="-11.7141" y="13.2183" width="276.104" height="274.257" rx="20" fill="#FFAA29"/>
+</g>
+<g opacity="0.25">
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="95" y="91" width="116" height="115">
+<circle cx="153.252" cy="148.5" r="57.42" fill="#FFAA29"/>
+</mask>
+<g mask="url(#mask2)">
+<rect x="95.832" y="91.0801" width="115.632" height="114.84" rx="20" fill="#FFAA29"/>
+</g>
+</g>
+</svg>

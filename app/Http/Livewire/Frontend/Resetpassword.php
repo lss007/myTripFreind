@@ -61,7 +61,6 @@ class Resetpassword extends Component
         session()->flash('error', 'There is an error with email verification.');
         return redirect()->to('/login');
       }
-      return redirect()->to('/');
     }
 
     public function resetPassword()

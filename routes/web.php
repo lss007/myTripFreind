@@ -31,6 +31,7 @@ Route::group(['middleware' => ['guest']], function () {
 Route::group(['middleware' => ['auth']], function () {
   Route::group(['middleware' => ['UserDashboard']], function () {
     Route::get('dashboard', \App\Http\Livewire\Authboard\Dashboard::class);
+    Route::get('profile', \App\Http\Livewire\Authboard\UserProfile::class);
   });
 });
 
